@@ -1,0 +1,324 @@
+{
+  "algorithm": "AgglomerativeClustering",
+  "assigned_member": "Student 2",
+  "sample_size_used": 10000,
+  "sample_note": "Fit on a random 4,000-customer sample due to O(n^2) memory/time cost at full scale (~49.7k customers).",
+  "grid_search_space": {
+    "k": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "linkage": [
+      "ward",
+      "complete",
+      "average"
+    ],
+    "metric": [
+      "euclidean",
+      "manhattan"
+    ]
+  },
+  "best_params": {
+    "k": 4,
+    "linkage": "average",
+    "metric": "manhattan"
+  },
+  "best_metrics": {
+    "silhouette_score": 0.30163651481064246,
+    "davies_bouldin_index": 1.6218664434703958,
+    "calinski_harabasz_index": 1469.2394428201878
+  },
+  "all_grid_results": [
+    {
+      "k": 2,
+      "linkage": "ward",
+      "metric": "euclidean",
+      "silhouette": 0.19018186324059552,
+      "davies_bouldin": 1.550221447817572,
+      "calinski_harabasz": 3006.843399947818
+    },
+    {
+      "k": 2,
+      "linkage": "complete",
+      "metric": "euclidean",
+      "silhouette": 0.3041657169633637,
+      "davies_bouldin": 1.6068724684892752,
+      "calinski_harabasz": 2355.3439022116254
+    },
+    {
+      "k": 2,
+      "linkage": "complete",
+      "metric": "manhattan",
+      "silhouette": 0.34648681021360017,
+      "davies_bouldin": 1.5572803813868945,
+      "calinski_harabasz": 2301.0807210398475
+    },
+    {
+      "k": 2,
+      "linkage": "average",
+      "metric": "euclidean",
+      "silhouette": 0.4105737214545185,
+      "davies_bouldin": 0.6808850731649154,
+      "calinski_harabasz": 404.3098596857386
+    },
+    {
+      "k": 2,
+      "linkage": "average",
+      "metric": "manhattan",
+      "silhouette": 0.362872894372863,
+      "davies_bouldin": 1.419148785241616,
+      "calinski_harabasz": 3130.996019512449
+    },
+    {
+      "k": 3,
+      "linkage": "ward",
+      "metric": "euclidean",
+      "silhouette": 0.19508060463810317,
+      "davies_bouldin": 1.8422349561884006,
+      "calinski_harabasz": 2459.194789080241
+    },
+    {
+      "k": 3,
+      "linkage": "complete",
+      "metric": "euclidean",
+      "silhouette": 0.27163293652433623,
+      "davies_bouldin": 1.6064410288367663,
+      "calinski_harabasz": 1613.4851545829517
+    },
+    {
+      "k": 3,
+      "linkage": "complete",
+      "metric": "manhattan",
+      "silhouette": 0.32341292674854294,
+      "davies_bouldin": 1.4098584649598564,
+      "calinski_harabasz": 1540.474541667599
+    },
+    {
+      "k": 3,
+      "linkage": "average",
+      "metric": "euclidean",
+      "silhouette": 0.3761207385778882,
+      "davies_bouldin": 0.9154030656706024,
+      "calinski_harabasz": 654.9624798301099
+    },
+    {
+      "k": 3,
+      "linkage": "average",
+      "metric": "manhattan",
+      "silhouette": 0.34157787444286053,
+      "davies_bouldin": 1.5285663282062947,
+      "calinski_harabasz": 1863.127341959194
+    },
+    {
+      "k": 4,
+      "linkage": "ward",
+      "metric": "euclidean",
+      "silhouette": 0.1674496041113201,
+      "davies_bouldin": 1.6860958693406742,
+      "calinski_harabasz": 2245.5368338838666
+    },
+    {
+      "k": 4,
+      "linkage": "complete",
+      "metric": "euclidean",
+      "silhouette": 0.17583531456918877,
+      "davies_bouldin": 1.9558331385313144,
+      "calinski_harabasz": 1767.0464440706578
+    },
+    {
+      "k": 4,
+      "linkage": "complete",
+      "metric": "manhattan",
+      "silhouette": 0.19887717216966197,
+      "davies_bouldin": 1.9813955757510526,
+      "calinski_harabasz": 1831.7617757403718
+    },
+    {
+      "k": 4,
+      "linkage": "average",
+      "metric": "euclidean",
+      "silhouette": 0.3014470172388482,
+      "davies_bouldin": 1.137738253908386,
+      "calinski_harabasz": 1032.7147182730746
+    },
+    {
+      "k": 4,
+      "linkage": "average",
+      "metric": "manhattan",
+      "silhouette": 0.30163651481064246,
+      "davies_bouldin": 1.6218664434703958,
+      "calinski_harabasz": 1469.2394428201878
+    },
+    {
+      "k": 5,
+      "linkage": "ward",
+      "metric": "euclidean",
+      "silhouette": 0.17010166639670238,
+      "davies_bouldin": 1.6566968152995738,
+      "calinski_harabasz": 2055.31799689973
+    },
+    {
+      "k": 5,
+      "linkage": "complete",
+      "metric": "euclidean",
+      "silhouette": 0.14564589196046876,
+      "davies_bouldin": 1.8716260877964692,
+      "calinski_harabasz": 1698.6310438930982
+    },
+    {
+      "k": 5,
+      "linkage": "complete",
+      "metric": "manhattan",
+      "silhouette": 0.2011639869567064,
+      "davies_bouldin": 1.6010344184688095,
+      "calinski_harabasz": 1700.9422592600415
+    },
+    {
+      "k": 5,
+      "linkage": "average",
+      "metric": "euclidean",
+      "silhouette": 0.29536088136215327,
+      "davies_bouldin": 1.0939782240640823,
+      "calinski_harabasz": 812.7337221380695
+    },
+    {
+      "k": 5,
+      "linkage": "average",
+      "metric": "manhattan",
+      "silhouette": 0.26123518194278356,
+      "davies_bouldin": 1.50353164096187,
+      "calinski_harabasz": 1282.4278833304877
+    },
+    {
+      "k": 6,
+      "linkage": "ward",
+      "metric": "euclidean",
+      "silhouette": 0.17506217897935855,
+      "davies_bouldin": 1.544146110510032,
+      "calinski_harabasz": 1922.8294648261456
+    },
+    {
+      "k": 6,
+      "linkage": "complete",
+      "metric": "euclidean",
+      "silhouette": 0.1479037980098477,
+      "davies_bouldin": 1.7598906731080612,
+      "calinski_harabasz": 1539.5519561573199
+    },
+    {
+      "k": 6,
+      "linkage": "complete",
+      "metric": "manhattan",
+      "silhouette": 0.18442610813358057,
+      "davies_bouldin": 1.5378371465668224,
+      "calinski_harabasz": 1626.7830499741003
+    },
+    {
+      "k": 6,
+      "linkage": "average",
+      "metric": "euclidean",
+      "silhouette": 0.26618914915973785,
+      "davies_bouldin": 1.211057310772185,
+      "calinski_harabasz": 1073.5301014923
+    },
+    {
+      "k": 6,
+      "linkage": "average",
+      "metric": "manhattan",
+      "silhouette": 0.17949116474106544,
+      "davies_bouldin": 1.4157229395050974,
+      "calinski_harabasz": 1028.7373598641552
+    },
+    {
+      "k": 7,
+      "linkage": "ward",
+      "metric": "euclidean",
+      "silhouette": 0.16182536865820735,
+      "davies_bouldin": 1.5384813931362271,
+      "calinski_harabasz": 1808.8644218255906
+    },
+    {
+      "k": 7,
+      "linkage": "complete",
+      "metric": "euclidean",
+      "silhouette": 0.14629082762486054,
+      "davies_bouldin": 1.6661997606601455,
+      "calinski_harabasz": 1365.9560656954795
+    },
+    {
+      "k": 7,
+      "linkage": "complete",
+      "metric": "manhattan",
+      "silhouette": 0.11655605689365911,
+      "davies_bouldin": 1.7026932910261887,
+      "calinski_harabasz": 1523.704000241424
+    },
+    {
+      "k": 7,
+      "linkage": "average",
+      "metric": "euclidean",
+      "silhouette": 0.23527940411633308,
+      "davies_bouldin": 1.2258929067812565,
+      "calinski_harabasz": 1168.6920947714314
+    },
+    {
+      "k": 7,
+      "linkage": "average",
+      "metric": "manhattan",
+      "silhouette": 0.1799227423147092,
+      "davies_bouldin": 1.28849557523216,
+      "calinski_harabasz": 895.2319184867482
+    },
+    {
+      "k": 8,
+      "linkage": "ward",
+      "metric": "euclidean",
+      "silhouette": 0.12154169660543282,
+      "davies_bouldin": 1.631683078948813,
+      "calinski_harabasz": 1743.077435476058
+    },
+    {
+      "k": 8,
+      "linkage": "complete",
+      "metric": "euclidean",
+      "silhouette": 0.15114459929338495,
+      "davies_bouldin": 1.534248536531226,
+      "calinski_harabasz": 1432.6992813184172
+    },
+    {
+      "k": 8,
+      "linkage": "complete",
+      "metric": "manhattan",
+      "silhouette": 0.11596816792494134,
+      "davies_bouldin": 1.6946204605915358,
+      "calinski_harabasz": 1515.7359006629285
+    },
+    {
+      "k": 8,
+      "linkage": "average",
+      "metric": "euclidean",
+      "silhouette": 0.2192063930413011,
+      "davies_bouldin": 1.1653568623755546,
+      "calinski_harabasz": 1092.3539548254844
+    },
+    {
+      "k": 8,
+      "linkage": "average",
+      "metric": "manhattan",
+      "silhouette": 0.1561501090965043,
+      "davies_bouldin": 1.4251537051112024,
+      "calinski_harabasz": 1079.6311944379188
+    }
+  ],
+  "cluster_sizes": {
+    "0": 1045,
+    "1": 8326,
+    "2": 251,
+    "3": 378
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "algorithm": "GaussianMixture",
+  "assigned_member": "Student 3",
+  "grid_search_space": {
+    "n_components": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "covariance_type": [
+      "full",
+      "tied",
+      "diag",
+      "spherical"
+    ]
+  },
+  "best_params": {
+    "n_components": 4,
+    "covariance_type": "tied"
+  },
+  "best_metrics": {
+    "silhouette_score": 0.26943006576873996,
+    "davies_bouldin_index": 1.4632761671403356,
+    "calinski_harabasz_index": 1458.1980035450347,
+    "bic": 92646.89486333034,
+    "aic": 92372.90192919524
+  },
+  "best_by_bic": {
+    "n_components": 4,
+    "covariance_type": "full",
+    "bic": 61639.04728140705
+  },
+  "all_grid_results": [
+    {
+      "n_components": 2,
+      "covariance_type": "full",
+      "silhouette": 0.2660861005564851,
+      "davies_bouldin": 1.988586834019217,
+      "calinski_harabasz": 2283.69286214538,
+      "bic": 82300.2777350644,
+      "aic": 82004.65377981338
+    },
+    {
+      "n_components": 2,
+      "covariance_type": "tied",
+      "silhouette": 0.326063606150478,
+      "davies_bouldin": 1.6499978536741222,
+      "calinski_harabasz": 1262.503846112694,
+      "bic": 96764.05625536671,
+      "aic": 96576.58740569533
+    },
+    {
+      "n_components": 2,
+      "covariance_type": "diag",
+      "silhouette": 0.29498299711722437,
+      "davies_bouldin": 1.5071983494431664,
+      "calinski_harabasz": 3932.033723065394,
+      "bic": 128823.42971804237,
+      "aic": 128672.01257023087
+    },
+    {
+      "n_components": 2,
+      "covariance_type": "spherical",
+      "silhouette": 0.29757412590679294,
+      "davies_bouldin": 1.5289637249645627,
+      "calinski_harabasz": 3835.1133773742663,
+      "bic": 131165.48408625898,
+      "aic": 131071.7496614233
+    },
+    {
+      "n_components": 3,
+      "covariance_type": "full",
+      "silhouette": 0.22488862908667925,
+      "davies_bouldin": 2.0908203393813887,
+      "calinski_harabasz": 1752.3748499170804,
+      "bic": 67180.72409194312,
+      "aic": 66733.6829888806
+    },
+    {
+      "n_components": 3,
+      "covariance_type": "tied",
+      "silhouette": 0.2927663965646755,
+      "davies_bouldin": 1.5797432081106597,
+      "calinski_harabasz": 1783.0120633447098,
+      "bic": 95186.98038569109,
+      "aic": 94956.24949378785
+    },
+    {
+      "n_components": 3,
+      "covariance_type": "diag",
+      "silhouette": 0.1685377551158471,
+      "davies_bouldin": 1.8639081831357098,
+      "calinski_harabasz": 2817.094876430443,
+      "bic": 123724.91559068197,
+      "aic": 123494.18469877873
+    },
+    {
+      "n_components": 3,
+      "covariance_type": "spherical",
+      "silhouette": 0.17409410486409074,
+      "davies_bouldin": 1.7882020388929412,
+      "calinski_harabasz": 2709.8103627572045,
+      "bic": 129246.49625089865,
+      "aic": 129102.28944345913
+    },
+    {
+      "n_components": 4,
+      "covariance_type": "full",
+      "silhouette": 0.19307597388982467,
+      "davies_bouldin": 1.655710450840381,
+      "calinski_harabasz": 1871.3445939617984,
+      "bic": 61639.04728140705,
+      "aic": 61040.58903053303
+    },
+    {
+      "n_components": 4,
+      "covariance_type": "tied",
+      "silhouette": 0.26943006576873996,
+      "davies_bouldin": 1.4632761671403356,
+      "calinski_harabasz": 1458.1980035450347,
+      "bic": 92646.89486333034,
+      "aic": 92372.90192919524
+    },
+    {
+      "n_components": 4,
+      "covariance_type": "diag",
+      "silhouette": 0.16141688450254482,
+      "davies_bouldin": 1.734717592379684,
+      "calinski_harabasz": 2288.1834201735073,
+      "bic": 109828.89957784313,
+      "aic": 109518.85494184816
+    },
+    {
+      "n_components": 4,
+      "covariance_type": "spherical",
+      "silhouette": 0.19680846841807062,
+      "davies_bouldin": 1.5374981982971425,
+      "calinski_harabasz": 2717.208872879976,
+      "bic": 128028.33711371933,
+      "aic": 127833.65792367597
+    },
+    {
+      "n_components": 5,
+      "covariance_type": "full",
+      "silhouette": 0.16502053028461006,
+      "davies_bouldin": 1.5297217195235504,
+      "calinski_harabasz": 1976.5060250162078,
+      "bic": 62400.17007658205,
+      "aic": 61650.29467789653
+    },
+    {
+      "n_components": 5,
+      "covariance_type": "tied",
+      "silhouette": 0.25780508211834074,
+      "davies_bouldin": 2.194674430187466,
+      "calinski_harabasz": 1060.9935705232283,
+      "bic": 86677.99396973696,
+      "aic": 86360.73899337
+    },
+    {
+      "n_components": 5,
+      "covariance_type": "diag",
+      "silhouette": 0.1578180947941272,
+      "davies_bouldin": 1.5647836055685385,
+      "calinski_harabasz": 2169.1095201244007,
+      "bic": 108191.7508997739,
+      "aic": 107802.39251968719
+    },
+    {
+      "n_components": 5,
+      "covariance_type": "spherical",
+      "silhouette": 0.1621479079937963,
+      "davies_bouldin": 1.4660783322976583,
+      "calinski_harabasz": 2285.5393032080706,
+      "bic": 126701.61106260362,
+      "aic": 126456.45948995644
+    },
+    {
+      "n_components": 6,
+      "covariance_type": "full",
+      "silhouette": 0.10251590594174018,
+      "davies_bouldin": 1.823487008042192,
+      "calinski_harabasz": 1716.9621626124003,
+      "bic": 50542.138634555224,
+      "aic": 49640.8460880582
+    },
+    {
+      "n_components": 6,
+      "covariance_type": "tied",
+      "silhouette": 0.20709054485067221,
+      "davies_bouldin": 1.9443534742062016,
+      "calinski_harabasz": 1326.9931319747257,
+      "bic": 90875.18763317354,
+      "aic": 90514.67061457473
+    },
+    {
+      "n_components": 6,
+      "covariance_type": "diag",
+      "silhouette": 0.10499712499992933,
+      "davies_bouldin": 1.6939940134996678,
+      "calinski_harabasz": 1907.4495436174518,
+      "bic": 106299.97426989651,
+      "aic": 105831.30214571806
+    },
+    {
+      "n_components": 6,
+      "covariance_type": "spherical",
+      "silhouette": 0.17900706737942482,
+      "davies_bouldin": 1.3371922472548288,
+      "calinski_harabasz": 2301.8011319496118,
+      "bic": 126298.50159916421,
+      "aic": 126002.87764391319
+    },
+    {
+      "n_components": 7,
+      "covariance_type": "full",
+      "silhouette": 0.10103225711773403,
+      "davies_bouldin": 1.702442498618188,
+      "calinski_harabasz": 1629.869763555307,
+      "bic": 49996.75197607992,
+      "aic": 48944.0422817714
+    },
+    {
+      "n_components": 7,
+      "covariance_type": "tied",
+      "silhouette": 0.21289152637326433,
+      "davies_bouldin": 2.0131511543157226,
+      "calinski_harabasz": 1234.9835488036563,
+      "bic": 90919.64766672657,
+      "aic": 90515.8686058959
+    },
+    {
+      "n_components": 7,
+      "covariance_type": "diag",
+      "silhouette": 0.1090957407360115,
+      "davies_bouldin": 1.7260370082767675,
+      "calinski_harabasz": 1775.8741711309744,
+      "bic": 105621.52030486387,
+      "aic": 105073.53443659368
+    },
+    {
+      "n_components": 7,
+      "covariance_type": "spherical",
+      "silhouette": 0.16359900417116605,
+      "davies_bouldin": 1.3772788567695395,
+      "calinski_harabasz": 2188.9656780069986,
+      "bic": 125274.9902107666,
+      "aic": 124928.89387291174
+    },
+    {
+      "n_components": 8,
+      "covariance_type": "full",
+      "silhouette": 0.0796921850496323,
+      "davies_bouldin": 2.0263126715264033,
+      "calinski_harabasz": 1373.050151473408,
+      "bic": 42241.37877576097,
+      "aic": 41037.251933640946
+    },
+    {
+      "n_components": 8,
+      "covariance_type": "tied",
+      "silhouette": 0.12943648686569023,
+      "davies_bouldin": 2.2797371668421222,
+      "calinski_harabasz": 1094.3377459588385,
+      "bic": 82759.97709989011,
+      "aic": 82312.93599682758
+    },
+    {
+      "n_components": 8,
+      "covariance_type": "diag",
+      "silhouette": 0.08116835396078698,
+      "davies_bouldin": 2.0281614851423067,
+      "calinski_harabasz": 1473.208292098222,
+      "bic": 88829.7514241202,
+      "aic": 88202.45181175828
+    },
+    {
+      "n_components": 8,
+      "covariance_type": "spherical",
+      "silhouette": 0.17927699021080343,
+      "davies_bouldin": 1.3063667080611028,
+      "calinski_harabasz": 2243.861375660072,
+      "bic": 124338.40617512708,
+      "aic": 123941.83745466839
+    }
+  ],
+  "cluster_sizes": {
+    "0": 561,
+    "1": 1494,
+    "2": 202,
+    "3": 7743
+  }
+}

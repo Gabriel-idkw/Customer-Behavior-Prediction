@@ -1,0 +1,421 @@
+{
+  "algorithm": "KMeans",
+  "assigned_member": "Student 1",
+  "grid_search_space": {
+    "k": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "init": [
+      "k-means++",
+      "random"
+    ],
+    "n_init": [
+      10,
+      20,
+      30
+    ]
+  },
+  "best_params": {
+    "k": 4,
+    "init": "k-means++",
+    "n_init": 10
+  },
+  "best_metrics": {
+    "silhouette_score": 0.20473270844011282,
+    "davies_bouldin_index": 1.4693014864703295,
+    "calinski_harabasz_index": 2868.1868659063057,
+    "inertia": 26894.917396262546
+  },
+  "all_grid_results": [
+    {
+      "k": 2,
+      "init": "k-means++",
+      "n_init": 10,
+      "silhouette": 0.3082061578828109,
+      "davies_bouldin": 1.4541670640149056,
+      "calinski_harabasz": 4125.84934778199,
+      "inertia": 35426.75027205458
+    },
+    {
+      "k": 2,
+      "init": "k-means++",
+      "n_init": 20,
+      "silhouette": 0.3081313895085878,
+      "davies_bouldin": 1.4542286470808703,
+      "calinski_harabasz": 4125.86474672937,
+      "inertia": 35426.660402451234
+    },
+    {
+      "k": 2,
+      "init": "k-means++",
+      "n_init": 30,
+      "silhouette": 0.3081313895085878,
+      "davies_bouldin": 1.4542286470808703,
+      "calinski_harabasz": 4125.86474672937,
+      "inertia": 35426.660402451234
+    },
+    {
+      "k": 2,
+      "init": "random",
+      "n_init": 10,
+      "silhouette": 0.30785679392662885,
+      "davies_bouldin": 1.4546964074745043,
+      "calinski_harabasz": 4125.871880140312,
+      "inertia": 35426.58336388393
+    },
+    {
+      "k": 2,
+      "init": "random",
+      "n_init": 20,
+      "silhouette": 0.30785679392662885,
+      "davies_bouldin": 1.4546964074745043,
+      "calinski_harabasz": 4125.871880140312,
+      "inertia": 35426.58336388393
+    },
+    {
+      "k": 2,
+      "init": "random",
+      "n_init": 30,
+      "silhouette": 0.30785679392662885,
+      "davies_bouldin": 1.4546964074745043,
+      "calinski_harabasz": 4125.871880140312,
+      "inertia": 35426.58336388393
+    },
+    {
+      "k": 3,
+      "init": "k-means++",
+      "n_init": 10,
+      "silhouette": 0.2455827831872191,
+      "davies_bouldin": 1.5612231228427202,
+      "calinski_harabasz": 3221.0202237156395,
+      "inertia": 30434.421608297398
+    },
+    {
+      "k": 3,
+      "init": "k-means++",
+      "n_init": 20,
+      "silhouette": 0.24574253584174466,
+      "davies_bouldin": 1.5615490731758779,
+      "calinski_harabasz": 3221.034193799692,
+      "inertia": 30434.414829610858
+    },
+    {
+      "k": 3,
+      "init": "k-means++",
+      "n_init": 30,
+      "silhouette": 0.24761418272116895,
+      "davies_bouldin": 1.5594321862850336,
+      "calinski_harabasz": 3221.1493244470435,
+      "inertia": 30434.04081988864
+    },
+    {
+      "k": 3,
+      "init": "random",
+      "n_init": 10,
+      "silhouette": 0.24731768188776532,
+      "davies_bouldin": 1.5582373189726209,
+      "calinski_harabasz": 3221.2521658508645,
+      "inertia": 30433.45713070491
+    },
+    {
+      "k": 3,
+      "init": "random",
+      "n_init": 20,
+      "silhouette": 0.2475967508450096,
+      "davies_bouldin": 1.5582160858006873,
+      "calinski_harabasz": 3221.2756359340065,
+      "inertia": 30433.380876341194
+    },
+    {
+      "k": 3,
+      "init": "random",
+      "n_init": 30,
+      "silhouette": 0.2475967508450096,
+      "davies_bouldin": 1.5582160858006873,
+      "calinski_harabasz": 3221.2756359340065,
+      "inertia": 30433.380876341194
+    },
+    {
+      "k": 4,
+      "init": "k-means++",
+      "n_init": 10,
+      "silhouette": 0.20473270844011282,
+      "davies_bouldin": 1.4693014864703295,
+      "calinski_harabasz": 2868.1868659063057,
+      "inertia": 26894.917396262546
+    },
+    {
+      "k": 4,
+      "init": "k-means++",
+      "n_init": 20,
+      "silhouette": 0.20473270844011282,
+      "davies_bouldin": 1.4693014864703295,
+      "calinski_harabasz": 2868.1868659063057,
+      "inertia": 26894.917396262546
+    },
+    {
+      "k": 4,
+      "init": "k-means++",
+      "n_init": 30,
+      "silhouette": 0.20473270844011282,
+      "davies_bouldin": 1.4693014864703295,
+      "calinski_harabasz": 2868.1868659063057,
+      "inertia": 26894.917396262546
+    },
+    {
+      "k": 4,
+      "init": "random",
+      "n_init": 10,
+      "silhouette": 0.20364203197556216,
+      "davies_bouldin": 1.473322594482878,
+      "calinski_harabasz": 2868.0327502216805,
+      "inertia": 26895.731359082594
+    },
+    {
+      "k": 4,
+      "init": "random",
+      "n_init": 20,
+      "silhouette": 0.20467081721606392,
+      "davies_bouldin": 1.4700632132319291,
+      "calinski_harabasz": 2868.2388573480835,
+      "inertia": 26894.72237444887
+    },
+    {
+      "k": 4,
+      "init": "random",
+      "n_init": 30,
+      "silhouette": 0.20467081721606392,
+      "davies_bouldin": 1.4700632132319291,
+      "calinski_harabasz": 2868.2388573480835,
+      "inertia": 26894.72237444887
+    },
+    {
+      "k": 5,
+      "init": "k-means++",
+      "n_init": 10,
+      "silhouette": 0.2028493095110631,
+      "davies_bouldin": 1.394277920166007,
+      "calinski_harabasz": 2634.1162487036445,
+      "inertia": 24363.139674326496
+    },
+    {
+      "k": 5,
+      "init": "k-means++",
+      "n_init": 20,
+      "silhouette": 0.2028493095110631,
+      "davies_bouldin": 1.394277920166007,
+      "calinski_harabasz": 2634.1162487036445,
+      "inertia": 24363.139674326496
+    },
+    {
+      "k": 5,
+      "init": "k-means++",
+      "n_init": 30,
+      "silhouette": 0.20301211745677825,
+      "davies_bouldin": 1.3927123400389574,
+      "calinski_harabasz": 2634.2007770222503,
+      "inertia": 24362.729903266933
+    },
+    {
+      "k": 5,
+      "init": "random",
+      "n_init": 10,
+      "silhouette": 0.20268611720647073,
+      "davies_bouldin": 1.4007217050759107,
+      "calinski_harabasz": 2633.471907405837,
+      "inertia": 24366.237721546302
+    },
+    {
+      "k": 5,
+      "init": "random",
+      "n_init": 20,
+      "silhouette": 0.2024978319226545,
+      "davies_bouldin": 1.4198923906344156,
+      "calinski_harabasz": 2633.676719448553,
+      "inertia": 24365.23026830581
+    },
+    {
+      "k": 5,
+      "init": "random",
+      "n_init": 30,
+      "silhouette": 0.2024978319226545,
+      "davies_bouldin": 1.4198923906344156,
+      "calinski_harabasz": 2633.676719448553,
+      "inertia": 24365.23026830581
+    },
+    {
+      "k": 6,
+      "init": "k-means++",
+      "n_init": 10,
+      "silhouette": 0.19383345567960472,
+      "davies_bouldin": 1.3358752049745581,
+      "calinski_harabasz": 2479.2026140576418,
+      "inertia": 22338.64423356065
+    },
+    {
+      "k": 6,
+      "init": "k-means++",
+      "n_init": 20,
+      "silhouette": 0.19825009061477858,
+      "davies_bouldin": 1.3287390769204903,
+      "calinski_harabasz": 2479.7677566612588,
+      "inertia": 22335.7412114136
+    },
+    {
+      "k": 6,
+      "init": "k-means++",
+      "n_init": 30,
+      "silhouette": 0.19825009061477858,
+      "davies_bouldin": 1.3287390769204903,
+      "calinski_harabasz": 2479.7677566612588,
+      "inertia": 22335.7412114136
+    },
+    {
+      "k": 6,
+      "init": "random",
+      "n_init": 10,
+      "silhouette": 0.19716965022104688,
+      "davies_bouldin": 1.3797282591421463,
+      "calinski_harabasz": 2476.626354336993,
+      "inertia": 22351.590317571558
+    },
+    {
+      "k": 6,
+      "init": "random",
+      "n_init": 20,
+      "silhouette": 0.19423085537357623,
+      "davies_bouldin": 1.3348159555968262,
+      "calinski_harabasz": 2479.1920962834593,
+      "inertia": 22338.698447424038
+    },
+    {
+      "k": 6,
+      "init": "random",
+      "n_init": 30,
+      "silhouette": 0.19423085537357623,
+      "davies_bouldin": 1.3348159555968262,
+      "calinski_harabasz": 2479.1920962834593,
+      "inertia": 22338.698447424038
+    },
+    {
+      "k": 7,
+      "init": "k-means++",
+      "n_init": 10,
+      "silhouette": 0.19553853543744296,
+      "davies_bouldin": 1.3387593655340424,
+      "calinski_harabasz": 2397.7250139481143,
+      "inertia": 20513.69930661229
+    },
+    {
+      "k": 7,
+      "init": "k-means++",
+      "n_init": 20,
+      "silhouette": 0.196389526280129,
+      "davies_bouldin": 1.335554750176941,
+      "calinski_harabasz": 2398.9919369357235,
+      "inertia": 20507.367211232082
+    },
+    {
+      "k": 7,
+      "init": "k-means++",
+      "n_init": 30,
+      "silhouette": 0.1961528696564968,
+      "davies_bouldin": 1.3365287415997273,
+      "calinski_harabasz": 2399.1909707300197,
+      "inertia": 20506.32633964548
+    },
+    {
+      "k": 7,
+      "init": "random",
+      "n_init": 10,
+      "silhouette": 0.1958039319852368,
+      "davies_bouldin": 1.3360265973774228,
+      "calinski_harabasz": 2397.4545603485476,
+      "inertia": 20515.05172011747
+    },
+    {
+      "k": 7,
+      "init": "random",
+      "n_init": 20,
+      "silhouette": 0.19553853543744296,
+      "davies_bouldin": 1.3387593655340424,
+      "calinski_harabasz": 2397.725013948115,
+      "inertia": 20513.69930661229
+    },
+    {
+      "k": 7,
+      "init": "random",
+      "n_init": 30,
+      "silhouette": 0.19553853543744296,
+      "davies_bouldin": 1.3387593655340424,
+      "calinski_harabasz": 2397.725013948115,
+      "inertia": 20513.69930661229
+    },
+    {
+      "k": 8,
+      "init": "k-means++",
+      "n_init": 10,
+      "silhouette": 0.19310707734623184,
+      "davies_bouldin": 1.2821447502490266,
+      "calinski_harabasz": 2321.924807250936,
+      "inertia": 19053.351554231554
+    },
+    {
+      "k": 8,
+      "init": "k-means++",
+      "n_init": 20,
+      "silhouette": 0.19310707734623184,
+      "davies_bouldin": 1.2821447502490266,
+      "calinski_harabasz": 2321.924807250936,
+      "inertia": 19053.351554231554
+    },
+    {
+      "k": 8,
+      "init": "k-means++",
+      "n_init": 30,
+      "silhouette": 0.18855762811012236,
+      "davies_bouldin": 1.3031153446880661,
+      "calinski_harabasz": 2322.298468722965,
+      "inertia": 19051.396881288783
+    },
+    {
+      "k": 8,
+      "init": "random",
+      "n_init": 10,
+      "silhouette": 0.19431976440446377,
+      "davies_bouldin": 1.27684768688759,
+      "calinski_harabasz": 2321.9326104140187,
+      "inertia": 19053.18838431553
+    },
+    {
+      "k": 8,
+      "init": "random",
+      "n_init": 20,
+      "silhouette": 0.19243568777177333,
+      "davies_bouldin": 1.2870930494302613,
+      "calinski_harabasz": 2322.5689776716385,
+      "inertia": 19049.997568815437
+    },
+    {
+      "k": 8,
+      "init": "random",
+      "n_init": 30,
+      "silhouette": 0.1991847810232655,
+      "davies_bouldin": 1.2583605804167641,
+      "calinski_harabasz": 2323.349042102015,
+      "inertia": 19045.985597688843
+    }
+  ],
+  "cluster_sizes": {
+    "0": 3938,
+    "1": 1143,
+    "2": 3113,
+    "3": 1806
+  }
+}

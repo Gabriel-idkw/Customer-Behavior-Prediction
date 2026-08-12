@@ -1,0 +1,74 @@
+{
+  "fair_comparison_table": [
+    {
+      "Member": "Student 1",
+      "Algorithm": "K-Means",
+      "Optimal Parameters": "{'k': 4, 'init': 'k-means++', 'n_init': 10}",
+      "Silhouette Score (\u2191)": 0.206,
+      "Davies-Bouldin Index (\u2193)": 1.4648,
+      "Calinski-Harabasz Index (\u2191)": 1438.264,
+      "Winner?": "\u274c"
+    },
+    {
+      "Member": "Student 2",
+      "Algorithm": "Hierarchical",
+      "Optimal Parameters": "{'k': 4, 'linkage': 'average', 'metric': 'manhattan'}",
+      "Silhouette Score (\u2191)": 0.2996,
+      "Davies-Bouldin Index (\u2193)": 1.5969,
+      "Calinski-Harabasz Index (\u2191)": 761.022,
+      "Winner?": "\u2705"
+    },
+    {
+      "Member": "Student 3",
+      "Algorithm": "GMM",
+      "Optimal Parameters": "{'n_components': 4, 'covariance_type': 'tied'}",
+      "Silhouette Score (\u2191)": 0.2627,
+      "Davies-Bouldin Index (\u2193)": 1.4685,
+      "Calinski-Harabasz Index (\u2191)": 750.3216,
+      "Winner?": "\u274c"
+    }
+  ],
+  "winning_algorithm": "Hierarchical",
+  "persona_table": [
+    {
+      "cluster": 0,
+      "Persona": "Recently Active (Cluster 0)",
+      "Recency": 435.3,
+      "Frequency": 2.7,
+      "Monetary": 5890.6,
+      "AOV": 2278.3,
+      "Return_Rate_Pct": 47.7,
+      "Customers": 5108
+    },
+    {
+      "cluster": 1,
+      "Persona": "Recently Active, Frequent, High-Value, Low-Return (Cluster 1)",
+      "Recency": 208.7,
+      "Frequency": 5.6,
+      "Monetary": 15405.7,
+      "AOV": 2789.8,
+      "Return_Rate_Pct": 39.7,
+      "Customers": 41459
+    },
+    {
+      "cluster": 2,
+      "Persona": "Occasional, Budget, High-Return (Cluster 2)",
+      "Recency": 455.1,
+      "Frequency": 1.5,
+      "Monetary": 3798.5,
+      "AOV": 2568.4,
+      "Return_Rate_Pct": 100.0,
+      "Customers": 1284
+    },
+    {
+      "cluster": 3,
+      "Persona": "Lapsed/At-Risk, Occasional, Budget, Low-Return (Cluster 3)",
+      "Recency": 641.9,
+      "Frequency": 1.7,
+      "Monetary": 4241.1,
+      "AOV": 2671.2,
+      "Return_Rate_Pct": 0.0,
+      "Customers": 1810
+    }
+  ]
+}
